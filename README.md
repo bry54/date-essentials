@@ -23,9 +23,6 @@ npm install date-essentials
 | [futureDayOccurrences](#futureDayOccurrences) | [pastDayOccurrences](#pastDayOccurrences) | [dayOccurrencesBetween](#dayOccurrencesBetween) |
 |-----------------------------------------------|-------------------------------------------|-------------------------------------------------|
 ```
-- [futureDayOccurrences](#futureDayOccurrences)
-- [pastDayOccurrences](#pastDayOccurrences)
-- [dayOccurrencesBetween](#dayOccurrencesBetween)
 
 ### Importing
 
