@@ -1,0 +1,32 @@
+{
+	"name": "date-essentials",
+	"version": "1.0.0",
+	"description": "Essential helper functions when dealing with dates",
+	"main": "dist/index.js",
+	"scripts": {
+		"build": "tsc"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+ssh://git@github.com/bry54/date-essentials.git"
+	},
+	"keywords": [
+		"Date",
+		"Date Range",
+		"Date Maths"
+	],
+	"author": "Brian Sithole",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/bry54/date-essentials/issues"
+	},
+	"homepage": "https://github.com/bry54/date-essentials#readme",
+	"devDependencies": {
+		"@types/jest": "^29.5.13",
+		"@types/node": "^22.7.4",
+		"jest": "^29.7.0",
+		"ts-jest": "^29.2.5",
+		"ts-node": "^10.9.2",
+		"typescript": "^5.6.2"
+	}
+}

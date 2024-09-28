@@ -1,0 +1,8 @@
+src/
+index.js
+tsconfig.json
+.npmignore
+.gitignore
+.git
+*.tgz
+package/
