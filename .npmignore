@@ -1,9 +1,46 @@
 src/
-tsconfig.json
 .npmignore
 .gitignore
 .git
 *.tgz
-package/
-tests/
-jest.config.js
+
+# Ignore test files
+/tests
+/test
+
+# Ignore configuration files
+tsconfig.json
+.eslintignore
+.eslintrc.js
+.prettierrc
+.prettierignore
+*.config.js
+*.config.json
+
+# Ignore build and environment files
+/build
+/dist
+/node_modules
+.env
+.env.*
+
+# Ignore lock files (optional, as these may not be necessary in the package)
+package-lock.json
+yarn.lock
+
+# Ignore IDE/editor configuration files
+.vscode/
+.idea/
+*.log
+
+# Ignore coverage reports
+coverage/
+
+# Ignore temporary files or OS-specific files
+*.swp
+*.DS_Store
+Thumbs.db
+
+# Ignore npm debug files
+npm-debug.log*
+
