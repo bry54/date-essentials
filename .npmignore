@@ -1,8 +1,9 @@
 src/
-index.js
 tsconfig.json
 .npmignore
 .gitignore
 .git
 *.tgz
 package/
+tests/
+jest.config.js
