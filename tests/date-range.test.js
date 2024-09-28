@@ -6,7 +6,6 @@ const { dateRangeFromFixedNumber, dateRangeFromTwoDates } = helpers;
 describe('dateRangeFromFixedNumber', () => {
     test('should return the correct date range for the past 7 days + today (8 days)', () => {
         const result = dateRangeFromFixedNumber(-7);
-        console.log(result);
         expect(result.length).toBe(8); // Expect 8 days in the array
     });
 
