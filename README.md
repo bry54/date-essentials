@@ -32,25 +32,17 @@ import { dateRangeFromFixedNumber, dateRangeFromTwoDates } from 'date-essentials
   </tr>
   <tr>
     <td> <a href="#dateRangeFromFixedNumber">dateRangeFromFixedNumber</a> </td>
-    <td>Row 1 Col 2</td>
-    <td>Row 1 Col 3</td>
-    <td>Row 1 Col 4</td>
+    <td> <a href="#dateRangeFromTwoDates">dateRangeFromTwoDates</a> </td>
+    <td> <a href="#futureDayOccurrences">futureDayOccurrences</a> </td>
+    <td> <a href="#pastDayOccurrences">pastDayOccurrences</a> </td>
   </tr>
   <tr>
-    <td>Row 2 Col 1</td>
-    <td>Row 2 Col 2</td>
-    <td>Row 2 Col 3</td>
-    <td>Row 2 Col 4</td>
+    <td><a href="#dayOccurrencesBetween">dayOccurrencesBetween</a></td>
+    <td><a href=""></a></td>
+    <td><a href=""></a></td>
+    <td><a href=""></a></td>
   </tr>
 </table>
-
-
-|                                                       |                                                 |                                               |                                           |
-|-------------------------------------------------------|-------------------------------------------------|-----------------------------------------------|-------------------------------------------|
-| [dateRangeFromFixedNumber](#dateRangeFromFixedNumber) | [dateRangeFromTwoDates](#daterangefromtwodates) | [futureDayOccurrences](#futuredayoccurrences) | [pastDayOccurrences](#pastdayoccurrences) |
-| [dayOccurrencesBetween](#dayoccurrencesbetween)       |                                                 |                                               |                                           |
-
-
 
 #### <a name="dateRangeFromFixedNumber">1.</a> `dateRangeFromFixedNumber(days: number): string[]`
 
@@ -74,7 +66,7 @@ Generates a date range based on a fixed number of days relative to today. The fu
   console.log(next5Days); // ['YYYY-MM-DD', 'YYYY-MM-DD', ...]
   ```
 
-#### <a name="daterangefromtwodates">2.</a> `dateRangeFromTwoDates(start: string, end: string): string[]`
+#### <a name="dateRangeFromTwoDates">2.</a> `dateRangeFromTwoDates(start: string, end: string): string[]`
 
 Generates an array of dates between two given date strings, inclusive of both start and end dates.
 
@@ -93,7 +85,7 @@ Generates an array of dates between two given date strings, inclusive of both st
   console.log(dateRange); // ['2024-09-01', '2024-09-02', ..., '2024-09-07']
   ```
 
-#### <a name="futuredayoccurrences">3.</a> `futureDayOccurrences(day: string, startDate: string, occurrences?: number): string[]`
+#### <a name="futureDayOccurrences">3.</a> `futureDayOccurrences(day: string, startDate: string, occurrences?: number): string[]`
 
 Returns an array of future occurrences of the specified day of the week starting from the given date. The number of occurrences is optional and defaults to 1.
 
@@ -112,7 +104,7 @@ futureDayOccurrences('SUN', '2024-09-29', 2);
 // Output: ['2024-10-06', '2024-10-13']
 ```
 
-#### <a name="pastdayoccurrences">4.</a> `pastDayOccurrences(day: string, startDate: string, occurrences?: number): string[]`
+#### <a name="pastDayOccurrences">4.</a> `pastDayOccurrences(day: string, startDate: string, occurrences?: number): string[]`
 
 Returns an array of past occurrences of the specified day of the week starting from the given date. The number of occurrences is optional and defaults to 1.
 
@@ -131,7 +123,7 @@ pastDayOccurrences('SUN', '2024-09-29', 2);
 // Output: ['2024-09-22', '2024-09-15']
 ```
 
-#### <a name="dayoccurrencesbetween">5.</a> `dayOccurrencesBetween(day: string, startDate: string, endDate: string): string[]`
+#### <a name="dayOccurrencesBetween">5.</a> `dayOccurrencesBetween(day: string, startDate: string, endDate: string): string[]`
 
 Returns all occurrences of the specified day of the week between two dates.
 
