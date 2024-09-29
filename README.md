@@ -27,9 +27,10 @@ import { dateRangeFromFixedNumber, dateRangeFromTwoDates } from 'date-essentials
 ### Functions
 
 
-|                                               |                                           |                                                 |
-|-----------------------------------------------|-------------------------------------------|-------------------------------------------------|
-| [futureDayOccurrences](#futuredayoccurrences) | [pastDayOccurrences](#pastdayoccurrences) | [dayOccurrencesBetween](#dayoccurrencesbetween) |
+|                                                       |                                                 |                                               |                                           |
+|-------------------------------------------------------|-------------------------------------------------|-----------------------------------------------|-------------------------------------------|
+| [dateRangeFromFixedNumber](#daterangefromfixednumber) | [dateRangeFromTwoDates](#daterangefromtwodates) | [futureDayOccurrences](#futuredayoccurrences) | [pastDayOccurrences](#pastdayoccurrences) |
+| [dayOccurrencesBetween](#dayoccurrencesbetween)       |                                                 |                                               |                                           |
 
 
 
@@ -55,7 +56,7 @@ Generates a date range based on a fixed number of days relative to today. The fu
   console.log(next5Days); // ['YYYY-MM-DD', 'YYYY-MM-DD', ...]
   ```
 
-#### <a name="daterangefromtwodates">2</a>. `dateRangeFromTwoDates(start: string, end: string): string[]`
+#### <a name="daterangefromtwodates">2.</a> `dateRangeFromTwoDates(start: string, end: string): string[]`
 
 Generates an array of dates between two given date strings, inclusive of both start and end dates.
 
