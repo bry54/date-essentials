@@ -2,7 +2,6 @@ src/
 .npmignore
 .gitignore
 .git
-example.mjs
 playground
 *.tgz
 

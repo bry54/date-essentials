@@ -26,6 +26,24 @@ import { dateRangeFromFixedNumber, dateRangeFromTwoDates } from 'date-essentials
 
 ### Functions
 
+<table>
+  <tr>
+    <th colspan="4">Functions</th>
+  </tr>
+  <tr>
+    <td> <a href="#dateRangeFromFixedNumber">dateRangeFromFixedNumber</a> </td>
+    <td>Row 1 Col 2</td>
+    <td>Row 1 Col 3</td>
+    <td>Row 1 Col 4</td>
+  </tr>
+  <tr>
+    <td>Row 2 Col 1</td>
+    <td>Row 2 Col 2</td>
+    <td>Row 2 Col 3</td>
+    <td>Row 2 Col 4</td>
+  </tr>
+</table>
+
 
 |                                                       |                                                 |                                               |                                           |
 |-------------------------------------------------------|-------------------------------------------------|-----------------------------------------------|-------------------------------------------|
@@ -34,7 +52,7 @@ import { dateRangeFromFixedNumber, dateRangeFromTwoDates } from 'date-essentials
 
 
 
-#### <a name="daterangefromfixednumber">1.</a> `dateRangeFromFixedNumber(days: number): string[]`
+#### <a name="dateRangeFromFixedNumber">1.</a> `dateRangeFromFixedNumber(days: number): string[]`
 
 Generates a date range based on a fixed number of days relative to today. The function will calculate a range of dates either going backward or forward in time, depending on the input.
 
