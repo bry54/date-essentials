@@ -47,7 +47,7 @@ import { dateRangeFromFixedNumber, dateRangeFromTwoDates } from 'date-essentials
 
 |                                                       |                                                 |                                               |                                           |
 |-------------------------------------------------------|-------------------------------------------------|-----------------------------------------------|-------------------------------------------|
-| [dateRangeFromFixedNumber](#daterangefromfixednumber) | [dateRangeFromTwoDates](#daterangefromtwodates) | [futureDayOccurrences](#futuredayoccurrences) | [pastDayOccurrences](#pastdayoccurrences) |
+| [dateRangeFromFixedNumber](#dateRangeFromFixedNumber) | [dateRangeFromTwoDates](#daterangefromtwodates) | [futureDayOccurrences](#futuredayoccurrences) | [pastDayOccurrences](#pastdayoccurrences) |
 | [dayOccurrencesBetween](#dayoccurrencesbetween)       |                                                 |                                               |                                           |
 
 
