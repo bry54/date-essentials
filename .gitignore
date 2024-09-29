@@ -42,3 +42,4 @@ Thumbs.db
 # Library sample outpt
 *.tgz
 package
+playground/node_modules
