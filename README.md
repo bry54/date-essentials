@@ -3,10 +3,7 @@
 **date-essentials** is a lightweight utility library for handling common date-related operations in JavaScript and TypeScript. It provides functions to easily generate date ranges, manipulate dates, and format them as needed.
 
 ## Features
-
-- Generate date ranges based on a fixed number of days relative to today.
-- Generate date ranges between two specific dates.
-- Parse and format date strings in `YYYY-MM-DD` format.
+- Accepted date format format `YYYY-MM-DD`.
 - Simple, efficient, and easy to use with TypeScript support.
 
 ## Installation
@@ -18,11 +15,6 @@ npm install date-essentials
 ```
 
 ## Usage
-```markdown
-|-----------------------------------------------|-------------------------------------------|-------------------------------------------------|
-| [futureDayOccurrences](#futureDayOccurrences) | [pastDayOccurrences](#pastDayOccurrences) | [dayOccurrencesBetween](#dayOccurrencesBetween) |
-|-----------------------------------------------|-------------------------------------------|-------------------------------------------------|
-```
 
 ### Importing
 
@@ -33,6 +25,13 @@ import { dateRangeFromFixedNumber, dateRangeFromTwoDates } from 'date-essentials
 ```
 
 ### Functions
+
+
+|                                               |                                           |                                                 |
+|-----------------------------------------------|-------------------------------------------|-------------------------------------------------|
+| [futureDayOccurrences](#futuredayoccurrences) | [pastDayOccurrences](#pastdayoccurrences) | [dayOccurrencesBetween](#dayoccurrencesbetween) |
+
+
 
 #### <a name="daterangefromfixednumber">1.</a> `dateRangeFromFixedNumber(days: number): string[]`
 
@@ -75,7 +74,7 @@ Generates an array of dates between two given date strings, inclusive of both st
   console.log(dateRange); // ['2024-09-01', '2024-09-02', ..., '2024-09-07']
   ```
 
-#### <a name="futureDayOccurrences">3.</a> `futureDayOccurrences(day: string, startDate: string, occurrences?: number): string[]`
+#### <a name="futuredayoccurrences">3.</a> `futureDayOccurrences(day: string, startDate: string, occurrences?: number): string[]`
 
 Returns an array of future occurrences of the specified day of the week starting from the given date. The number of occurrences is optional and defaults to 1.
 
@@ -94,7 +93,7 @@ futureDayOccurrences('SUN', '2024-09-29', 2);
 // Output: ['2024-10-06', '2024-10-13']
 ```
 
-#### <a name="pastDayOccurrences">4.</a> `pastDayOccurrences(day: string, startDate: string, occurrences?: number): string[]`
+#### <a name="pastdayoccurrences">4.</a> `pastDayOccurrences(day: string, startDate: string, occurrences?: number): string[]`
 
 Returns an array of past occurrences of the specified day of the week starting from the given date. The number of occurrences is optional and defaults to 1.
 
@@ -113,7 +112,7 @@ pastDayOccurrences('SUN', '2024-09-29', 2);
 // Output: ['2024-09-22', '2024-09-15']
 ```
 
-#### <a name="dayOccurrencesBetween">5.</a> `dayOccurrencesBetween(day: string, startDate: string, endDate: string): string[]`
+#### <a name="dayoccurrencesbetween">5.</a> `dayOccurrencesBetween(day: string, startDate: string, endDate: string): string[]`
 
 Returns all occurrences of the specified day of the week between two dates.
 
